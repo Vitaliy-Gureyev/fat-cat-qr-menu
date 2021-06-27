@@ -3,14 +3,18 @@
   background-color: $color-maine-brown;
 }
 .logo-container {
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   display: flex;
   justify-content: center;
+  img{
+    width: 30%;
+  }
 }
 .header-text-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   color: $color-header-text;
   font-weight: 200;
+  font-size: $large-font;
 }

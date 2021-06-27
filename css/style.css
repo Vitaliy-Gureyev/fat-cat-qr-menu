@@ -38,17 +38,21 @@ html, body {
 }
 
 .logo-container {
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   display: flex;
   justify-content: center;
+}
+.logo-container img {
+  width: 30%;
 }
 
 .header-text-container {
   display: flex;
   justify-content: center;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   color: white;
   font-weight: 200;
+  font-size: 35px;
 }
 
 .maine-container {
@@ -59,11 +63,11 @@ html, body {
 
 .menu-title {
   display: flex;
-  padding-bottom: 1em;
+  padding: 0.5em 0 0.5em 0;
   justify-content: center;
-  font-size: 25px;
-  font-weight: 500;
-  color: #3E4B47;
+  font-size: 75px;
+  font-weight: 400;
+  color: #75807d;
 }
 
 .hr-line {
@@ -74,12 +78,12 @@ html, body {
 
 .menu-elements {
   display: grid;
-  grid-gap: 3em;
+  grid-gap: 10em;
 }
 .menu-elements img {
   align-self: center;
   justify-self: center;
-  width: 450px;
+  width: 750px;
   max-width: 100%;
   height: auto;
 }
@@ -94,7 +98,7 @@ footer {
   padding: 30px 0 30px 0;
   color: white;
   font-weight: 200;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

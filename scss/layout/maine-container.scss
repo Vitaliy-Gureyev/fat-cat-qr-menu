@@ -6,10 +6,10 @@
 
 .menu-title {
   display: flex;
-  padding-bottom: 1em;
+  padding: 0.5em 0 0.5em 0;
   justify-content: center;
   font-size: $extra-large-font;
-  font-weight: 500;
+  font-weight: 400;
   color: $color-maine-text;
 }
 
@@ -20,11 +20,11 @@
 }
 .menu-elements {
   display: grid;
-  grid-gap: 3em;
+  grid-gap: 10em;
   img{
     align-self: center;
     justify-self: center;
-    width: 450px;
+    width: 750px;
     max-width: 100%;
     height: auto;
   }
