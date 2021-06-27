@@ -1,0 +1,27 @@
+/*global*/
+.wrapper {
+  background-color: #f7f7f7;
+}
+li {
+  list-style-type: none;
+}
+button, input {
+  border: none;
+}
+img {
+  overflow: hidden;
+}
+
+@import
+'variables and mixins/variables',
+'variables and mixins/mixins';
+
+@import
+'base/reset',
+'base/typography';
+
+@import
+'layout/header',
+'layout/maine-container',
+'layout/footer';
+

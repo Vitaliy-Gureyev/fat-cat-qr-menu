@@ -1,0 +1,32 @@
+.maine-container {
+  min-width: $minWidth+px;
+  background-color: $color-maine-blue;
+  padding: 36px 30px 100px 30px;
+}
+
+.menu-title {
+  display: flex;
+  padding-bottom: 1em;
+  justify-content: center;
+  font-size: $extra-large-font;
+  font-weight: 500;
+  color: $color-maine-text;
+}
+
+.hr-line {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+.menu-elements {
+  display: grid;
+  grid-gap: 3em;
+  img{
+    align-self: center;
+    justify-self: center;
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+  }
+
+}

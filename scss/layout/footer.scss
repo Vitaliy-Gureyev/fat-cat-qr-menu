@@ -1,0 +1,11 @@
+footer {
+  background-color: $color-maine-brown;
+  display: flex;
+  justify-content: center;
+}
+.copyright-container {
+  padding: 30px 0 30px 0;
+  color: $color-header-text;
+  font-weight: 200;
+  font-size: $small-font;
+}
