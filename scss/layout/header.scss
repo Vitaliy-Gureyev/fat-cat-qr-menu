@@ -7,7 +7,9 @@
   display: flex;
   justify-content: center;
   img{
-    width: 30%;
+    min-width: 15%;
+    max-width:
+    15%;
   }
 }
 .header-text-container {
@@ -15,6 +17,6 @@
   justify-content: center;
   padding-bottom: 30px;
   color: $color-header-text;
-  font-weight: 200;
+  font-weight: 100;
   font-size: $large-font;
 }

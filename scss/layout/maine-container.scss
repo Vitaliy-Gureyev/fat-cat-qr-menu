@@ -1,31 +1,54 @@
 .maine-container {
   min-width: $minWidth+px;
-  background-color: $color-maine-blue;
-  padding: 36px 30px 100px 30px;
+/*
+  padding: 36px 30px 100px 30px;*/
 }
-
+.dark-elements {
+  background-color: $color-maine-dark;
+  display: grid;
+  grid-gap: 5em;
+  justify-content: center;
+  padding: 5em 120px 5em 0;
+}
+.light-elements{
+  background-color: white;
+  display: grid;
+  grid-gap: 5em;
+  justify-content: center;
+  padding: 20px 120px 20px 20px;
+}
+.menu-header{
+  background-color: $color-maine-dark;
+/*  height: auto;
+  max-width: 100%;*/
+}
 .menu-title {
   display: flex;
   padding: 0.5em 0 0.5em 0;
   justify-content: center;
   font-size: $extra-large-font;
-  font-weight: 400;
-  color: $color-maine-text;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  color: white;
+  opacity: 0.78;
 }
 
 .hr-line {
   display: flex;
   justify-content: center;
   padding-bottom: 3em;
+  max-width: 70%;
+  @include centering;
 }
 .menu-elements {
   display: grid;
-  grid-gap: 10em;
+  grid-gap: 5em;
   img{
     align-self: center;
     justify-self: center;
     width: 750px;
     max-width: 100%;
+    min-width: 370px;
     height: auto;
   }
 

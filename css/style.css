@@ -29,12 +29,12 @@ html, body {
 }
 
 * {
-  font-family: Roboto, sans-serif;
+  font-family: "PF Din Text Comp Pro", "PF Din Text Comp Pro Light", sans-serif;
 }
 
 .header-container {
   min-width: 320px;
-  background-color: #59514c;
+  background-color: #B8AB80;
 }
 
 .logo-container {
@@ -43,7 +43,8 @@ html, body {
   justify-content: center;
 }
 .logo-container img {
-  width: 30%;
+  min-width: 15%;
+  max-width: 15%;
 }
 
 .header-text-container {
@@ -51,45 +52,73 @@ html, body {
   justify-content: center;
   padding-bottom: 30px;
   color: white;
-  font-weight: 200;
-  font-size: 35px;
+  font-weight: 100;
+  font-size: 40px;
 }
 
 .maine-container {
   min-width: 320px;
-  background-color: #c5d9d3;
-  padding: 36px 30px 100px 30px;
+  /*
+    padding: 36px 30px 100px 30px;*/
+}
+
+.dark-elements {
+  background-color: #4D4D4F;
+  display: grid;
+  grid-gap: 5em;
+  justify-content: center;
+  padding: 5em 120px 5em 0;
+}
+
+.light-elements {
+  background-color: white;
+  display: grid;
+  grid-gap: 5em;
+  justify-content: center;
+  padding: 20px 120px 20px 20px;
+}
+
+.menu-header {
+  background-color: #4D4D4F;
+  /*  height: auto;
+    max-width: 100%;*/
 }
 
 .menu-title {
   display: flex;
   padding: 0.5em 0 0.5em 0;
   justify-content: center;
-  font-size: 75px;
-  font-weight: 400;
-  color: #75807d;
+  font-size: 80px;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  color: white;
+  opacity: 0.78;
 }
 
 .hr-line {
   display: flex;
   justify-content: center;
   padding-bottom: 3em;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu-elements {
   display: grid;
-  grid-gap: 10em;
+  grid-gap: 5em;
 }
 .menu-elements img {
   align-self: center;
   justify-self: center;
   width: 750px;
   max-width: 100%;
+  min-width: 370px;
   height: auto;
 }
 
 footer {
-  background-color: #59514c;
+  background-color: #B8AB80;
   display: flex;
   justify-content: center;
 }
@@ -98,7 +127,7 @@ footer {
   padding: 30px 0 30px 0;
   color: white;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
