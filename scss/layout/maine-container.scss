@@ -24,7 +24,7 @@
 }
 .menu-title {
   display: flex;
-  padding: 0.5em 0 0.5em 0;
+  padding: 1em 0 1em 0;
   justify-content: center;
   font-size: $extra-large-font;
   font-family: Roboto, sans-serif;
@@ -36,7 +36,7 @@
 .hr-line {
   display: flex;
   justify-content: center;
-  padding-bottom: 3em;
+  padding-bottom: 100px;
   max-width: 70%;
   @include centering;
 }
