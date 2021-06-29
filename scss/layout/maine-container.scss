@@ -57,13 +57,12 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  z-index: 99;
   font-size: $medium-font;
   border: none;
   outline: none;
   background-color: $color-maine-brown;
   color: white;
-  /*cursor: pointer;*/
+  cursor: pointer;
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -81,7 +80,7 @@
 }
 @media (min-width: $medium-display+px) {
   .toTopBtn {
-    padding: 7px 25px 7px 25px;
-    font-size: $extra-large-font;
+    padding: 15px 30px 15px 30px;
+    font-size: $large-font;
   }
 }
