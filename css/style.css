@@ -35,16 +35,16 @@ html, body {
 .header-container {
   min-width: 320px;
   background-color: #B8AB80;
+  box-shadow: 0px -8px 19px -12px #000000 inset;
 }
 
 .logo-container {
-  padding: 40px 0 40px 0;
+  padding: 20px 0 20px 0;
   display: flex;
   justify-content: center;
 }
 .logo-container img {
-  min-width: 35%;
-  max-width: 15%;
+  height: 150px;
 }
 
 .header-text-container {
@@ -53,10 +53,39 @@ html, body {
   padding-bottom: 30px;
   color: white;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 30px;
   opacity: 0.78;
 }
 
+@media (min-width: 920px) {
+  .header-container {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-container {
+    padding: 40px 0 40px 0;
+  }
+  .logo-container img {
+    height: 160px;
+  }
+
+  .header-text-container {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .header-container {
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-container img {
+    height: 200px;
+  }
+}
 .maine-container {
   min-width: 320px;
   /*
@@ -80,7 +109,7 @@ html, body {
 }
 
 .menu-header {
-  background-color: #4D4D4F;
+  /*  background-color: $color-maine-dark;*/
   /*  height: auto;
     max-width: 100%;*/
 }
@@ -89,10 +118,9 @@ html, body {
   display: flex;
   padding: 1em 0 1em 0;
   justify-content: center;
-  font-size: 80px;
-  font-family: Roboto, sans-serif;
-  font-weight: 100;
-  color: white;
+  font-size: 40px;
+  font-weight: 300;
+  color: #21212a;
   opacity: 0.78;
 }
 
@@ -118,17 +146,49 @@ html, body {
   height: auto;
 }
 
+.toTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #B8AB80;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.toTopBtn:hover {
+  background-color: #555;
+}
+
+@media (min-width: 920px) {
+  .menu-title {
+    font-size: 80px;
+  }
+}
 footer {
   background-color: #B8AB80;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
+  padding: 20px 0 20px 0;
+}
+footer img {
+  height: 100%;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 .copyright-container {
-  padding: 30px 0 30px 0;
   color: white;
   font-weight: 200;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

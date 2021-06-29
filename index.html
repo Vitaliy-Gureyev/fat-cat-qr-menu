@@ -12,53 +12,73 @@
             <img src="images/logo-white.png" alt="">
         </div>
         <div class="header-text-container">
-            "Товстий Кіт" - Найсмачніша їжа у Луцьку
+            Найсмачніша їжа у Луцьку
         </div>
     </div>
 </header>
 <div class="maine-container">
     <div class="maine-menu-container">
-        <div class="menu-header">
-            <div class="menu-title"> Меню Товстий Кіт</div>
+        <div class="menu-header ">
+            <div class="menu-title"> Меню Fat Cat</div>
             <div class="hr-line">
                 <img src="images/Menu-Divider.png" alt="">
             </div>
         </div>
         <div class="menu-elements">
-            <div class="dark-elements">
-                <img src="images/pizza.png" alt="">
-            </div>
             <div class="light-elements">
                 <img src="images/salad.png" alt="">
-                <img src="images/new.png" alt="">
                 <img src="images/snacks.png" alt="">
                 <img src="images/soup_&_bakery.png" alt="">
+                <img src="images/paste.png" alt="">
                 <img src="images/poultry_and_meat.png" alt="">
                 <img src="images/seafood_and_fish.png" alt="">
-                <img src="images/paste.png" alt="">
                 <img src="images/burger.png" alt="">
-                <img src="images/desserts.png" alt="">
             </div>
             <div class="dark-elements">
-                <img src="images/juce_water_coctaile0+.png" alt="">
-                <img src="images/coffee.png" alt="">
-                <img src="images/ronnefeldt_tea.png" alt="">
-                <img src="images/branded_tea.png" alt="">
-                <img src="images/hot_chocolate.png" alt="">
+                <img src="images/pizza.png" alt="">
+                <img src="images/sushi.png" alt="">
+            </div>
+            <div class="light-elements">
+                <img src="images/desserts.png" alt="">
+            </div>
+
+            <div class="dark-elements">
+                <img src="images/juce_water_tea_coffee_coctaile0+.png" alt="">
             </div>
             <div class="light-elements">
                 <img src="images/alcohol.png" alt="">
             </div>
-            <div class="dark-elements">
-                <img src="images/sushi.png" alt="">
-            </div>
         </div>
     </div>
 </div>
+<button onclick="topFunction()" class="toTopBtn" id="toTopBtn" title="Go to top">▲</button>
+<script>
+    //Get the button
+    let toTopButton = document.getElementById("toTopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            toTopButton.style.display = "block";
+        } else {
+            toTopButton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.body.scrollTop = 0;
+        /*document.documentElement.scrollTop = 0;*/
+    }
+</script>
 <footer>
     <div class="copyright-container">
-        Copyright © 2021 Fat Cat м.Луцьк
+        Copyright © 2021 Patio di Fiori м.Луцьк
     </div>
+    <img src="images/patio-logo-small.png" alt="">
 </footer>
 </body>
 </html>
