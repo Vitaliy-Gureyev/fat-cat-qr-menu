@@ -156,7 +156,7 @@ html, body {
   outline: none;
   background-color: #B8AB80;
   color: white;
-  cursor: pointer;
+  /*  cursor: pointer;*/
   padding: 30px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
