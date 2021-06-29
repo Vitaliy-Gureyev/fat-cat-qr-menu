@@ -55,7 +55,7 @@
 .toTopBtn {
   display: none;
   position: fixed;
-  bottom: 30px;
+  bottom: 100px;
   right: 30px;
   font-size: $medium-font;
   border: none;
@@ -65,7 +65,8 @@
 /*  cursor: pointer;*/
   padding: 30px;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  opacity: 0.5;
 }
 
 /*.toTopBtn:hover {
@@ -80,7 +81,7 @@
 }
 @media (min-width: $medium-display+px) {
   .toTopBtn {
-    padding: 15px 30px 15px 30px;
+    padding: 50px 30px 50px 30px;
     font-size: $large-font;
   }
 }
