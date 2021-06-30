@@ -28,8 +28,12 @@ html, body {
   height: 100%;
 }
 
+html {
+  @import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap");
+}
+
 * {
-  font-family: Oswald, sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
 }
 
 .header-container {
@@ -52,7 +56,7 @@ html, body {
   justify-content: center;
   padding-bottom: 30px;
   color: white;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 30px;
   opacity: 0.78;
 }
@@ -120,7 +124,7 @@ html, body {
   padding: 1em 0 1em 0;
   justify-content: center;
   font-size: 40px;
-  font-weight: 300;
+  font-weight: 400;
   color: #21212a;
   opacity: 0.78;
 }
