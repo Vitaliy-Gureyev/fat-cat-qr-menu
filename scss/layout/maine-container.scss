@@ -9,6 +9,7 @@
   grid-gap: 5em;
   justify-content: center;
   padding: 5em 120px 5em 0;
+  box-shadow: 0 0 19px 0 rgba(0, 0, 0, 0.2) inset;
 }
 .light-elements{
   background-color: white;
@@ -62,26 +63,32 @@
   outline: none;
   background-color: $color-maine-brown;
   color: white;
-/*  cursor: pointer;*/
-  padding: 30px;
+  padding: 30px 15px 30px 15px;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   opacity: 0.5;
 }
 
-/*.toTopBtn:hover {
-  background-color: #555;
-}*/
+
+
 
 @media (min-width: $medium-display+px) {
   .menu-title{
     font-size: $extra-large-font;
   }
-
-}
-@media (min-width: $medium-display+px) {
   .toTopBtn {
     padding: 50px 30px 50px 30px;
     font-size: $large-font;
   }
+
+}
+@media (min-width: $large-display+px) {
+  .toTopBtn {
+    padding: 25px 25px 25px 25px;
+    font-size: $large-font;
+    cursor: pointer;
+  }
+  .toTopBtn:hover {
+  background-color: #555;
+}
 }
